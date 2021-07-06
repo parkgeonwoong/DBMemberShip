@@ -1,0 +1,82 @@
+body{
+    width: 700px;
+    margin-top: 5%;
+    padding: 30px;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table{
+    border: 1px solid #e8e8e8;
+    margin: auto;
+}
+
+
+table th{
+    padding: 12px 4px 10px 17px;
+    border: 1px solid #e8e8e8;
+    background-color: #f5f5f5;
+    text-align: left;
+    font-size: 12px;font-weight: normal;
+    vertical-align: middle;
+}
+
+table td{padding: 12px 7px 10px;
+    word-wrap: break-word;
+    border: 1px solid #e8e8e8;
+    background-color: #fff;
+    font-size: 12px;
+    font-weight: normal;
+    color: #4d4d4d;
+}
+
+table input{height: 25px;
+    margin: 0;
+    padding: 0 5px;
+    line-height: 20px;
+    border: 1px solid #d5d5d5;
+    font-size: 12px;
+}
+
+table td input{height: 25px;
+    margin: 0;
+    padding: 0 5px;
+    line-height: 20px;
+    border: 1px solid #d5d5d5;
+    font-size: 12px;
+}
+
+select{
+    width:12%;
+    background: #fff url(/images/bg_select_down.png) no-repeat right center;
+    height: 25px;
+    margin: 0;
+    padding: 0 5px;
+    line-height: 20px;
+    border: 1px solid #d5d5d5;
+    font-size: 12px;
+}
+
+.boardWriteBtn button {
+    width: 150px;
+    display: inline-block;
+    margin: 20px 0 130px;
+    padding: 12px 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    background: #444;
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+}
+
+.boardWriteBtn button#cancel {
+    border: 1px solid #444;
+    background: #767676;
+}
+
+.boardWriteBtn {
+    width: 100%;
+    text-align: center;
+}
