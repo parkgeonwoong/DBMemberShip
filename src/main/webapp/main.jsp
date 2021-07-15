@@ -5,7 +5,7 @@
 
 <sql:setDataSource var ="conn" 
 	driver = "oracle.jdbc.driver.OracleDriver"
-	user.url
+	url = "jdbc:oracle:thin:@localhost:1521:xe"
 	user.user
 	user.password
 />    

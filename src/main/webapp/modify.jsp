@@ -5,9 +5,9 @@
 
 <sql:setDataSource var ="conn" 
 	driver = "oracle.jdbc.driver.OracleDriver"
-	url = "jdbc:oracle:thin:@localhost:1521:xe"
-	user ="c##madang"
-	password = "madang"
+	user.url
+	user.user
+	user.password
 />    
 
 
@@ -19,7 +19,7 @@
 <html>
 
 <head>
-<title>** È¸¿ø ¼öÁ¤ **</title>
+<title>** È¸ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ **</title>
 </head>
 
 <body style="margin-top: 10%;">
@@ -31,7 +31,7 @@
     <tr>
 	<td width="150" height="23">
 	   <p align="center">
-	   <span style="font-size:9pt ;">ÀÌ    ¸§</span></p>
+	   <span style="font-size:9pt ;">ï¿½ï¿½    ï¿½ï¿½</span></p>
 	</td>
 	<td >
 		<input name="name" type="text" value ="${row.name}"> 
@@ -40,7 +40,7 @@
    <tr>
 	<td width="150" height="23">
 	   <p align="center">
-	   <span style="font-size:9pt ;">ÀÌ ¸Þ ÀÏ</span></p>
+	   <span style="font-size:9pt ;">ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½</span></p>
 	</td>
 	<td width="513">
         <input name="email" type="email" value ="${row.email}">
@@ -49,7 +49,7 @@
    <tr>
 	<td width="150" height="23">
 	   <p align="center">
-	   <span style="font-size:9pt ;">ÀüÈ­¹øÈ£</span></p>
+	   <span style="font-size:9pt ;">ï¿½ï¿½È­ï¿½ï¿½È£</span></p>
 	</td>
 	<td width="513">
         <input name="tel" type="text" value ="${row.phone}">
@@ -61,14 +61,14 @@
    <tr>
     <td width="300">
         <p align="right">
-            <button type="submit" value="ÀúÀå">ÀúÀå</button>
+            <button type="submit" value="ï¿½ï¿½ï¿½ï¿½">ï¿½ï¿½ï¿½ï¿½</button>
         </p>
      </td>
 
      <td width="50">
         <p align="right"><span style="font-size:9pt;">
         <a href="./management.jsp?idnum=${param.idnum}">
-        <font color="black">Ãë¼Ò</font></a></span></p>
+        <font color="black">ï¿½ï¿½ï¿½</font></a></span></p>
      </td>
    </tr>
 </table>

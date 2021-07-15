@@ -5,9 +5,9 @@
 
 <sql:setDataSource var ="conn" 
 	driver = "oracle.jdbc.driver.OracleDriver"
-	url = "jdbc:oracle:thin:@localhost:1521:xe"
-	user ="c##madang"
-	password = "madang"
+	user.url
+	user.user
+	user.password
 />    
 
 

@@ -5,16 +5,16 @@
 
 <sql:setDataSource var ="conn" 
 	driver = "oracle.jdbc.driver.OracleDriver"
-	url = "jdbc:oracle:thin:@localhost:1521:xe"
-	user ="c##madang"
-	password = "madang"
+	user.url
+	user.user
+	user.password
 />    
 
 
 <html>
     <head>
         <title>
-            ¼öÁ¤
+            ï¿½ï¿½ï¿½ï¿½
         </title>
     </head>
 
@@ -34,7 +34,7 @@
             </c:if>
         </c:catch>
         <c:if test="${exception!=null}">
-            ID ${ param.name }ÀÇ »ç¿ëÀÚ ¼öÁ¤ÀÌ ½ÇÆÐÇÏ¿´½À´Ï´Ù.
+            ID ${ param.name }ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï¿ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.
         </c:if>
     </body>
 </html>

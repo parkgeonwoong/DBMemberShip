@@ -5,9 +5,9 @@
 
 <sql:setDataSource var ="conn" 
 	driver = "oracle.jdbc.driver.OracleDriver"
-	url = "jdbc:oracle:thin:@localhost:1521:xe"
-	user ="c##madang"
-	password = "madang"
+	user.url
+	user.user
+	user.password
 />    
 
 
@@ -19,7 +19,7 @@
 <html>
 
 <head>
-<title>** È¸¿ø °ü¸® **</title>
+<title>** È¸ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ **</title>
 </head>
 
 <body style="margin-top: 10%;">
@@ -30,7 +30,7 @@
    <tr>
 	<td width="150" height="23">
 	   <p align="center">
-	   <span style="font-size:9pt ;">ÀÌ    ¸§</span></p>
+	   <span style="font-size:9pt ;">ï¿½ï¿½    ï¿½ï¿½</span></p>
 	</td>
 	<td >
 		<p><span style="font-size:9pt;">
@@ -41,7 +41,7 @@
    <tr>
 	<td width="150" height="23">
 	   <p align="center">
-	   <span style="font-size:9pt ;">ÀÌ ¸Þ ÀÏ</span></p>
+	   <span style="font-size:9pt ;">ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½</span></p>
 	</td>
 	<td width="513">
 	   <p><span style="font-size:9pt;">
@@ -52,7 +52,7 @@
    <tr>
 	<td width="150" height="23">
 	   <p align="center">
-	   <span style="font-size:9pt ;">ÀüÈ­¹øÈ£</span></p>
+	   <span style="font-size:9pt ;">ï¿½ï¿½È­ï¿½ï¿½È£</span></p>
 	</td>
 	<td width="513">
 	   <p><span style="font-size:9pt;">
@@ -67,19 +67,19 @@
     <td width="300">
         <p align="right"><span style="font-size:9pt;">
         <a href="./modify.jsp?idnum=${ param.idnum }">
-        <font color="black">¼öÁ¤</font></a></span></p>
+        <font color="black">ï¿½ï¿½ï¿½ï¿½</font></a></span></p>
      </td>
 
      <td width="50">
         <p align="right"><span style="font-size:9pt;">
         <a href="./delete.jsp?idnum=${ param.idnum }">
-        <font color="black">»èÁ¦</font></a></span></p>
+        <font color="black">ï¿½ï¿½ï¿½ï¿½</font></a></span></p>
      </td>
 
 	<td width="50">
 	   <p align="right"><span style="font-size:9pt;">
 	   <a href="./main.jsp">
-	   <font color="black">¸ñ·Ï</font></a></span></p>
+	   <font color="black">ï¿½ï¿½ï¿½</font></a></span></p>
 	</td>
    </tr>
 </table>

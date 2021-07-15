@@ -5,9 +5,9 @@
 
 <sql:setDataSource var ="conn" 
 	driver = "oracle.jdbc.driver.OracleDriver"
-	url = "jdbc:oracle:thin:@localhost:1521:xe"
-	user ="c##madang"
-	password = "madang"
+	user.url
+	user.user
+	user.password
 />
 
 <sql:query var="rs" dataSource="${conn}">
@@ -21,7 +21,7 @@
 
 <html>
 	<head>
-		<title>¾ÆÀÌµð Áßº¹Ã¼Å©</title>
+		<title>ï¿½ï¿½ï¿½Ìµï¿½ ï¿½ßºï¿½Ã¼Å©</title>
 	</head>
 <body>
   <c:choose>
